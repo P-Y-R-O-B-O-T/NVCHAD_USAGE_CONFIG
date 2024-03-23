@@ -134,7 +134,7 @@ return {
   	"nvim-treesitter/nvim-treesitter",
   	opts = {
   		ensure_installed = {
-  			"vim", "lua", "vimdoc", "html", "css", "yaml", "python", "go", "java", "bash", "c", "cpp", "cmake", "dockerfile", "markdown", "markdown inline", "json"
+  			"vim", "lua", "vimdoc", "html", "css", "yaml", "python", "go", "bash", "c", "cpp", "cmake", "dockerfile", "markdown", "markdown inline", "json"
   		},
   	},
   },

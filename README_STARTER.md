@@ -80,6 +80,7 @@ curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - && sudo a
 
 ## EDITED BASE CONFIG FOR STARTER
 * nvim/lua/configs/lspconfig.lua
+* See list of all language servers at [Nvim Language servers](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md)
 ```lua
 -- EXAMPLE 
 local on_attach = require("nvchad.configs.lspconfig").on_attach
@@ -87,7 +88,11 @@ local on_init = require("nvchad.configs.lspconfig").on_init
 local capabilities = require("nvchad.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
-local servers = { "html", "cssls", "pyright" }
+local servers = { "html", "cssls", "pyright" , "ansiblels", "yamlls", "arduino_language_server", "asm_lsp", "bashls", "biome", "clangd", "cmake",
+                  "dagger", "dartls", "docker_compose_language_service", "dockerls", "gopls", "graphql", "glslls", "golandci_lint_ls", "gopls",
+                  "helm_ls", "html", "htmx", "java_language_server", "jinja_lsp", "jqls", "jsonls", "jsonnet_ls", "markdown_oxide", "marksman",
+                  "matlab_ls", "mojo", "nelua_lsp", "nginx_language_server", "nickel_ls", "pico8_ls", "postgres_lsp", "qml_lsp", "r_language_server",
+                  "ruby_ls", "rust_analyzer", "syntax_tree", "terraform_lsp", "terraformls", "" }
 
 -- lsps with default config
 for _, lsp in ipairs(servers) do

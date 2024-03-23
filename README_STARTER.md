@@ -92,7 +92,7 @@ local servers = { "html", "cssls", "pyright" , "ansiblels", "yamlls", "arduino_l
                   "dagger", "dartls", "docker_compose_language_service", "dockerls", "gopls", "graphql", "glslls", "golandci_lint_ls", "gopls",
                   "helm_ls", "html", "htmx", "java_language_server", "jinja_lsp", "jqls", "jsonls", "jsonnet_ls", "markdown_oxide", "marksman",
                   "matlab_ls", "mojo", "nelua_lsp", "nginx_language_server", "nickel_ls", "pico8_ls", "postgres_lsp", "qml_lsp", "r_language_server",
-                  "ruby_ls", "rust_analyzer", "syntax_tree", "terraform_lsp", "terraformls", "" }
+                  "ruby_ls", "rust_analyzer", "syntax_tree", "terraform_lsp", "terraformls" }
 
 -- lsps with default config
 for _, lsp in ipairs(servers) do

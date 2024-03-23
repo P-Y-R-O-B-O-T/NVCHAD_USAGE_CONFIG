@@ -6,13 +6,13 @@
 ## INSTALLATION OF DEPENDENCIES FOR NVCHAD_v2.5
 * Backup the default config and the continue
 * Install all nerd fonts
-### Install latest version of node
+### LATEST VERSION OF NODE
 * [Source1](https://github.com/williamboman/mason-lspconfig.nvim/issues/273)
 * [Source2](https://github.com/nodesource/distributions#debian-and-ubuntu-based-distributions)
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - && sudo apt-get update && sudo apt-get install -y nodejs
 ```
-
+* Also installl latest versions of ruat and cargo
 
 
 ## CONTROLS
@@ -102,7 +102,7 @@ end
 ```
 
 * nvim/lua/plugins/init.lua
-* See TreeSitter parsers at [TreeSitterParsers](https://tree-sitter.github.io/tree-sitter/) 
+* See TreeSitter parsers at [Tree Sitter Parsers](https://tree-sitter.github.io/tree-sitter/) 
 ```lua
 return {
   {

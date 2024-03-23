@@ -12,7 +12,7 @@
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - && sudo apt-get update && sudo apt-get install -y nodejs
 ```
-* Also installl latest versions of ruat and cargo
+* Also installl latest versions of rust and cargo
 
 
 ## CONTROLS

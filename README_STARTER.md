@@ -25,7 +25,7 @@ curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - && sudo a
 
 
 ### INSTALL NEW LSP
-* `:mason`, then follow help for installing and uninstalling
+* `:Mason`, then follow help for installing and uninstalling
 
 
 ### FILE TREE

@@ -12,6 +12,7 @@
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - && sudo apt-get update && sudo apt-get install -y nodejs
 ```
+* Install ripgrep debian or the compatible from [Ripgrep Repo](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation) 
 * Also installl latest versions of rust and cargo
 
 

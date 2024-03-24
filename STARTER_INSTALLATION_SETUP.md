@@ -1,0 +1,5 @@
+# NVCHAD USAGE AND CONFIG
+
+## INSTALLATION AT [text](url)
+
+## KEY MAPPING AT [text](url)
